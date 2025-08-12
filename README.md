@@ -70,7 +70,6 @@ This system ensures **transparency**, **traceability**, and **trust**, while giv
 
 - **Account Registration** - Create merchant accounts with wallet integration
 - **Product Report Upload** - Submit detailed verification reports
-- **Batch Management** - Organize products by batch IDs
 - **Dashboard Analytics** - View submission status and history
 - **File Upload** - Attach lab reports, certifications, and images
 - **MetaMask Integration** - Secure wallet-based authentication
@@ -80,7 +79,6 @@ This system ensures **transparency**, **traceability**, and **trust**, while giv
 - **Report Review System** - Approve or reject merchant submissions
 - **Blockchain Publishing** - Push approved data to smart contracts
 - **User Management** - Manage merchant accounts and permissions
-- **System Monitoring** - Track platform usage and performance
 - **Data Validation** - Verify report authenticity before blockchain storage
 - **Audit Trail** - Complete history of all admin actions
 
@@ -253,7 +251,6 @@ npm run test-db      # Test database connection
 
 - **Wallet-based Authentication** - MetaMask integration for secure login
 - **JWT Token Security** - Stateless authentication
-- **Password Hashing** - bcryptjs for secure password storage
 - **CORS Protection** - Cross-origin request security
 - **Input Validation** - Server-side data validation
 - **File Upload Security** - Secure file handling with Multer
