@@ -166,22 +166,15 @@ pnpm install
 
 ### 3. 🔧 Environment Setup
 
-Create a `.env` file in the root directory:
+Before running the project, you must rename the provided env.txt file to .env, otherwise the backend will crash due to missing environment variables.
 
-```env
-# Database
-MONGODB_URI=mongodb+srv://admin:1234@proteindb.igcgnb4.mongodb.net/?retryWrites=true&w=majority&appName=ProteinDB
-
-# JWT Secret
-JWT_SECRET=your-super-secret-jwt-key
-
-# IPFS (Pinata)
-PINATA_API_KEY=your-pinata-api-key
-PINATA_SECRET_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIxMTI2Y2UwOC0wZjg4LTQyZDktYTZhNC1mYWY4YzlkMjhmYjciLCJlbWFpbCI6ImppbndlaTEwMDAxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxLCJpZCI6IkZSQTEifSx7ImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxLCJpZCI6Ik5ZQzEifV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2UsInN0YXR1cyI6IkFDVElWRSJ9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiJlNzNhMzI3MDk2ODE4NzY2MzRmOSIsInNjb3BlZEtleVNlY3JldCI6IjBiOTcwNzM5ZmFiMWU3Y2I5ZjJlNTUxZTRmMTNlNjc2NGZmYzQxMmE2MDAyMDk0NGI5NWQzZTA2M2QyYjIyMjUiLCJleHAiOjE3ODYxNzYwMzh9.LKh1lLSE2JIOn0_Y-dpgukkWk4bKMIlNAjGsvs1-T6M
-
-# Server
-PORT=3004
-NODE_ENV=development
+Steps:
+	1.	Locate the env.txt file in the root directory of the project.
+	2.	Rename it to .env (make sure there is no .txt extension left).
+	3.	Then run the usual setup commands:
+```bash
+npm install
+npm run dev
 ```
 
 ### 4. 🗄️ Database Setup
