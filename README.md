@@ -258,4 +258,16 @@ npm run test-db      # Test database connection
 - ✅ **Trust** - Cryptographic proof of authenticity
 - ✅ **Scalability** - IPFS for efficient file storage
 
+## Workload Matrix
+
+| Task / Module                  | Lee Jin Wei | Lim Poh Keat  | Mouhab Moqbel Mohammed Haidarah  | Muhammad Ali  |                    
+| ------------------------------ | --------------- | ---------- | ---------- | ---------- | 
+| Frontend (Next.js)             | 50%             | 50%        | 0%         | 0%         | 
+| Database (Backend)             | 50%             | 0%         | 50%        | 0%         | 
+| Hashing Verified Portal        | 100%            | 0%         | 0%         | 0%         | 
+| Smart Contract (Hardhat)       | 100%            | 0%         | 0%         | 0%         | 
+| Integration & Testing          | 100%            | 0%         | 0%         | 0%         | 
+
+
+
 
