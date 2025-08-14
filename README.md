@@ -265,7 +265,7 @@ npm run test-db      # Test database connection
 | Frontend (Next.js)             | 50%             | 50%        | 0%         | 0%         | 
 | Database (Backend)             | 50%             | 0%         | 50%        | 0%         | 
 | Hashing Verified Portal        | 100%            | 0%         | 0%         | 0%         | 
-| Smart Contract (Hardhat)       | 100%            | 0%         | 0%         | 0%         | 
+| Smart Contract (Hardhat)       | 50%             | 0%         | 0%         | 50%        | 
 | Integration & Testing          | 100%            | 0%         | 0%         | 0%         | 
 
 
